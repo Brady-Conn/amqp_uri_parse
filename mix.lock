@@ -1,0 +1,7 @@
+%{
+  "amqp_client": {:hex, :amqp_client, "3.9.21", "0eab28c1caa599e249ccec938bc2263f0c2f2e2731b89adac13b81d9fbeab495", [:make, :rebar3], [{:rabbit_common, "3.9.21", [hex: :rabbit_common, repo: "hexpm", optional: false]}], "hexpm", "545d6fde859187528b10a0e232e46a4f53f923c4677835858fb9f8a561469de9"},
+  "credentials_obfuscation": {:hex, :credentials_obfuscation, "3.1.0", "2c405ea0c5db7b3344aa5a99f86c33e7b6ecea97d2cb613371e1cf0d192ef2c6", [:rebar3], [], "hexpm", "04884e62b1c6cdfba999d4d6b3e99bc0a59d5e439517bc5c01767255afb7b778"},
+  "jsx": {:hex, :jsx, "3.1.0", "d12516baa0bb23a59bb35dccaf02a1bd08243fcbb9efe24f2d9d056ccff71268", [:rebar3], [], "hexpm", "0c5cc8fdc11b53cc25cf65ac6705ad39e54ecc56d1c22e4adb8f5a53fb9427f3"},
+  "rabbit_common": {:hex, :rabbit_common, "3.9.21", "7a659d62dd61ce320d7c6d6ec5c38a9dbb4db95bf699d8a5d468d803dc3ec670", [:make, :rebar3], [{:credentials_obfuscation, "3.1.0", [hex: :credentials_obfuscation, repo: "hexpm", optional: false]}, {:jsx, "3.1.0", [hex: :jsx, repo: "hexpm", optional: false]}, {:recon, "2.5.2", [hex: :recon, repo: "hexpm", optional: false]}], "hexpm", "703bf66e22f16dbeb0fb87254b3273ca09b0f94cfeb66dc7c9d068f51e8824c8"},
+  "recon": {:hex, :recon, "2.5.2", "cba53fa8db83ad968c9a652e09c3ed7ddcc4da434f27c3eaa9ca47ffb2b1ff03", [:mix, :rebar3], [], "hexpm", "2c7523c8dee91dff41f6b3d63cba2bd49eb6d2fe5bf1eec0df7f87eb5e230e1c"},
+}

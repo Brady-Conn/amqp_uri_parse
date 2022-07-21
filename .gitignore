@@ -24,3 +24,5 @@ parse_test-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+parse_test

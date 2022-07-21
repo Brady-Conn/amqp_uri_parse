@@ -1,21 +1,20 @@
 # ParseTest
 
-**TODO: Add description**
+Small repo to easily replicate a bug I found in the rabbitmq-server elixir amqp package around parsing connection uri's
 
-## Installation
+# Use
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `parse_test` to your list of dependencies in `mix.exs`:
+Requires elixir and mix
 
-```elixir
-def deps do
-  [
-    {:parse_test, "~> 0.1.0"}
-  ]
-end
-```
+clone or fork repo to your local machine
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/parse_test>.
+run `mix deps.get`
+
+run `mix escript.build`
+
+run `./parse_test` 
+
+optionally you can provide your own connection string to test against
+
+by running `./parse_test amqps://test_user:Pa?sword@amazon.aws.com`
 
